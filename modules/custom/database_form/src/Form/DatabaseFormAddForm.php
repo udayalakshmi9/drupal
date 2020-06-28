@@ -99,7 +99,7 @@ class DatabaseFormAddForm implements FormInterface, ContainerInjectionInterface 
 	//print_r ($keys);exit;
     $form['add'] = [
       '#type' => 'fieldset',
-      '#title' => $this->t('Add a user entry'),
+      '#title' => $this->t('Taxonomy form'),
     ];
     $form['add']['firstname'] = [
       '#type' => 'textfield',
